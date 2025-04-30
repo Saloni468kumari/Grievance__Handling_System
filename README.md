@@ -30,7 +30,7 @@ A **full-stack Django-based web application** designed to streamline the submiss
 
 ## ⚙️ Setup Instructions
 
-> ✅ Make sure you have **Python (3.10+)**, **Django 5.1+**, and optionally **MySQL** installed.
+> ✅ Make sure you have **Python (3.10+)**, **Django 5.1+**, and  **MySQL** installed.
 
 ### 1. Clone the Repository
 
