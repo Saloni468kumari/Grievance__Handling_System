@@ -79,7 +79,6 @@ python manage.py runserver
 
 ## 📸 Demo Screenshots
 
-> Replace the following links with updated ones from your GitHub repository.
 
 - **Login Page**  
   ![Login](https://github.com/user-attachments/assets/093e7f9b-17f4-4216-9ae8-a71ecedc1e9a)
