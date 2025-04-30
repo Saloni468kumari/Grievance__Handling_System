@@ -50,10 +50,6 @@ venv\Scripts\activate   # For Windows
 ### 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-```bash
 pip install django djangorestframework django-cors-headers
 ```
 
