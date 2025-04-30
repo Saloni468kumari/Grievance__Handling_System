@@ -53,8 +53,6 @@ venv\Scripts\activate   # For Windows
 pip install -r requirements.txt
 ```
 
-If `requirements.txt` is not available, install manually:
-
 ```bash
 pip install django djangorestframework django-cors-headers
 ```
@@ -62,7 +60,6 @@ pip install django djangorestframework django-cors-headers
 ### 4. Run Development Server
 
 ```bash
-python manage.py migrate
 python manage.py runserver
 ```
 
