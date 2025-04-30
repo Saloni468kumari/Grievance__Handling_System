@@ -46,21 +46,9 @@ venv\Scripts\activate   # Windows
 # source venv/bin/activate  # macOS/Linux
 ```
 
-### 📦 Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-> If `requirements.txt` is missing:
-```bash
-pip install django djangorestframework django-cors-headers
-```
-
 ### ▶️ Run the Server
 
 ```bash
-python manage.py migrate
 python manage.py runserver
 ```
 
