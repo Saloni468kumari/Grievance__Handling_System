@@ -35,8 +35,8 @@ A **full-stack Django-based web application** designed to streamline the submiss
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Mohitkumarsahu1221/Grievance_Handling_System
-cd Grievance_Handling_System/grievance_system
+git clone https://github.com/singh-gaurav04/Grievance__Handling_System.git
+cd Grievance__Handling_System/grievance_system
 ```
 
 ### 2. Create & Activate Virtual Environment (Optional but recommended)
