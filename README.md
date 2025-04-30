@@ -1,97 +1,106 @@
+# 🛠️ Grievance Handling System
 
-# 📢 Grievance Handling System
-
-A **full-stack Django-based web application** designed to streamline the submission, tracking, escalation, and resolution of grievances within any organization. This system features role-based access, real-time grievance updates, feedback collection, analytics visualization, and report generation.
-
----
-
-## 🚀 Features
-
-- 📝 **Grievance Submission** – Easy submission process for users.
-- 👥 **Role-Based Dashboards** – Separate interfaces for Admin, Employee, and Customer.
-- ⚙️ **Admin Control Panel** – Assign grievances to departments and employees.
-- ⏱️ **Automatic Escalation** – Unresolved grievances are escalated after 2 days.
-- ⭐ **Feedback Mechanism** – Customers can submit ratings and comments post-resolution.
-- 📊 **Data Visualization** – Insightful charts using Chart.js for tracking performance.
-- 📄 **Filtered Reports & CSV Export** – Efficient report generation for Admin users.
+A comprehensive **Django-based web application** to manage grievances efficiently within an organization. The platform allows users to submit issues, while admin and staff handle resolution, track performance, and maintain transparency.
 
 ---
 
-## 🔧 Tech Stack
+## 🌟 Key Highlights
 
-- **Backend:** Django, Python  
-- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript  
-- **Database:** SQLite3 (can be upgraded to MySQL/PostgreSQL)  
-- **Charts & Analytics:** Chart.js  
-- **Version Control:** Git, GitHub  
-- **Development Environment:** Visual Studio Code  
+- ✍️ **User-Friendly Grievance Submission**
+- 🔐 **Role-Based Access Control** (Admin, Employee, Customer)
+- ⚡ **Automatic Escalation System** (Unresolved cases auto-escalate after 48 hours)
+- 📥 **Feedback Module** for Post-Resolution Ratings
+- 📈 **Interactive Dashboards** using Chart.js
+- 📂 **Reports & CSV Export** for Admins
 
 ---
 
-## ⚙️ Setup Instructions
+## 🧰 Tech Stack
 
-> ✅ Make sure you have **Python (3.10+)**, **Django 5.1+**, and  **MySQL** installed.
+| Layer        | Technologies Used                         |
+|--------------|-------------------------------------------|
+| Backend      | Django 5.1+, Python 3.10+                 |
+| Frontend     | HTML5, CSS3, JavaScript, Bootstrap 5      |
+| Database     | SQLite3 (Pluggable with MySQL/PostgreSQL) |
+| Visualization| Chart.js                                   |
+| Dev Tools    | Git, GitHub, VS Code                      |
 
-### 1. Clone the Repository
+---
+
+## ⚙️ Getting Started
+
+> Prerequisite: Python 3.10+, Django 5.1+
+
+### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/singh-gaurav04/Grievance__Handling_System.git
+git clone https://github.com/Saloni468kumari/Grievance__Handling_System.git
 cd Grievance__Handling_System/grievance_system
 ```
 
-### 2. Create & Activate Virtual Environment (Optional but recommended)
+### 🧪 Setup Virtual Environment (Recommended)
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # For Windows
-# source venv/bin/activate  # For macOS/Linux
+venv\Scripts\activate   # Windows
+# source venv/bin/activate  # macOS/Linux
 ```
 
-### 3. Install Dependencies
+### 📦 Install Requirements
 
+```bash
+pip install -r requirements.txt
+```
+
+> If `requirements.txt` is missing:
 ```bash
 pip install django djangorestframework django-cors-headers
 ```
 
-### 4. Run Development Server
+### ▶️ Run the Server
 
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
 
 ---
 
-## 🔐 Default Credentials & Roles
+## 🔐 Default Credentials
 
-- ✅ **Admin Login**
-  - **Username:** `Admin`
-  - **Password:** `1234pass`
-- ✅ **Create Users**
-  - Customers and Employees can be created from the app.
-  - Admins can register new Admins via:  
-    [http://127.0.0.1:8000/register-admin](http://127.0.0.1:8000/register-admin) *(when logged in as an admin)*
+- **Admin**
+  - Username: `Admin`
+  - Password: `1234pass`
 
----
-
-## 📸 Demo Screenshots
-
-
-- **Login Page**  
-  ![Login](https://github.com/user-attachments/assets/093e7f9b-17f4-4216-9ae8-a71ecedc1e9a)
-
-- **Customer - Grievance Submission**  
-  ![Customer Submission](https://github.com/user-attachments/assets/9b300803-369c-4f2b-9773-0241230d5a79)
-
-- **Admin - Dashboard View**  
-  ![Admin Dashboard](https://github.com/user-attachments/assets/f7149b53-069e-4e85-958e-abdf4a0a8757)
-
-- **Admin - Grievance Table**  
-  ![Grievance Table](https://github.com/user-attachments/assets/090a2ee2-0cf9-4a39-af71-3c0134a5ab00)
+Admins can create new users or register new admins at:
+```
+http://127.0.0.1:8000/register-admin
+```
 
 ---
 
-## 🙌 Acknowledgements
+## 🖼️ Demo Screenshots
 
-- [Django Documentation](https://docs.djangoproject.com/)
-- [Bootstrap](https://getbootstrap.com/)
+| Page | Preview |
+|------|---------|
+| Login | ![Login](https://github.com/user-attachments/assets/093e7f9b-17f4-4216-9ae8-a71ecedc1e9a) |
+| Grievance Form | ![Customer Submission](https://github.com/user-attachments/assets/9b300803-369c-4f2b-9773-0241230d5a79) |
+| Admin Dashboard | ![Admin Dashboard](https://github.com/user-attachments/assets/f7149b53-069e-4e85-958e-abdf4a0a8757) |
+| Grievance Table | ![Grievance Table](https://github.com/user-attachments/assets/090a2ee2-0cf9-4a39-af71-3c0134a5ab00) |
+
+---
+
+## 📚 Resources & Credits
+
+- [Django Docs](https://docs.djangoproject.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
 - [Chart.js](https://www.chartjs.org/)
+
+---
+
+## 🙋‍♀️ Developed By
+
+**Saloni Kumari**  
+_Third Year | CSE (AI & ML) | LNCT Bhopal_
+
+---
